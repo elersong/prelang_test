@@ -1,4 +1,5 @@
 ActiveAdmin.register User do
+  permit_params :username, :email
 
 
   # See permitted parameters documentation:
